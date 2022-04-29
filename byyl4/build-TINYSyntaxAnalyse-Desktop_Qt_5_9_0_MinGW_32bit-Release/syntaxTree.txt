@@ -1,0 +1,5 @@
+Syntax tree:
+  Assign to: x
+    Op: |
+      Letter: a
+      Letter: b

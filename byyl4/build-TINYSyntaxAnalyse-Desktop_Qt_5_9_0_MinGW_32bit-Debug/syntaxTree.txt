@@ -1,0 +1,20 @@
+Syntax tree:
+  Read: x
+  If
+    Op: not
+      Op: ==
+        Id: x
+        Const: 0
+    Do
+      Assign to: y
+        Op: &
+          Letter: c
+          Op: #
+            Op: |
+              Letter: a
+              Letter: b
+      Op: >
+        Id: x
+        Const: 0
+    Write
+      Id: x
